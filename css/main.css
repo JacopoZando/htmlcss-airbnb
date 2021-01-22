@@ -1,0 +1,54 @@
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 80px;
+}
+h2{
+  text-align: center;
+}
+.container.uno{
+  height: 100vh;
+  background-image: url("../img/butrinto.jpg");
+  background-size: cover;
+  position:relative;
+  border: 5px solid red;
+}
+
+.container.due{
+  height: 100vh;
+  background-image: url("../img/frasassi.jpg");
+  background-size: cover;
+  position:relative;
+  border: 5px solid orange;
+}
+
+.container.tre{
+  height: 100vh;
+  background-image: url("../img/venezia.jpg");
+  background-size: cover;
+  position:relative;
+  border: 5px solid green;
+}
+
+.titolo {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  color: white;
+}
+
+.layover {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 900;
+}

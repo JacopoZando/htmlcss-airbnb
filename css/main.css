@@ -10,6 +10,33 @@ h1 {
 h2{
   text-align: center;
 }
+
+header {
+  position: relative;
+}
+
+.sconto {
+  position: fixed;
+  min-width: 12vw;
+  min-height: 12vh;
+  max-width: 25vw;
+  max-height: 25vh;
+  z-index: 999;
+  top: 50%;
+  left:5%;
+  
+}
+
+/* .fixed {
+  min-height: 10vh;
+  min-width: 10vw;
+  background-color: green;
+  position:absolute;
+  z-index: 999;
+} */
+
+/* CONTENITORI DI IMMAGINI */
+
 .container.uno{
   height: 100vh;
   background-image: url("../img/butrinto.jpg");
@@ -34,6 +61,8 @@ h2{
   border: 5px solid green;
 }
 
+/* STILE DEL TITOLO */
+
 .titolo {
   position: absolute;
   top: 30%;
@@ -41,7 +70,11 @@ h2{
   transform: translate(-50%, -50%);
   z-index: 999;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+
 }
+/* OPACIZZATORE */
 
 .layover {
   background-color: rgba(0, 0, 0, 0.3);
